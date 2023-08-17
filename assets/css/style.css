@@ -538,6 +538,10 @@ nav li a:hover::after {
         padding-left: 24px !important;
     }
 
+    .fs_md_26 {
+        font-size: 26px !important;
+    }
+
     .m_w_714 {
         max-width: 678px;
     }
