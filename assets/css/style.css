@@ -406,13 +406,13 @@ nav li a:hover::after {
 }
 
 .hero_parent {
-    max-width: 702px
+    max-width: 789px
 }
 
 /* ---------------------------Buy Slider-Css ----------------------- */
 .buy_laptop_parent {
     box-shadow: 0px 0px 44px 0px #00000038;
-    padding: 50px 29px 49px 29px;
+    padding: 50px 29px 45px 29px;
     background-color: #ffffff !important;
 }
 
@@ -485,6 +485,10 @@ nav li a:hover::after {
     opacity: unset;
 }
 
+.slick-list {
+    padding: 13px 0 !important;
+}
+
 /* ---------------------------------- Our Services-Css ----------------------------- */
 .m_w_714 {
     max-width: 714px;
@@ -524,7 +528,7 @@ nav li a:hover::after {
 @media (min-width: 1500.98px) {
     .nav_width {
         margin-left: auto;
-        max-width: 1414px;
+        max-width: 1394px;
     }
 }
 
@@ -669,5 +673,9 @@ nav li a:hover::after {
 
     .slick-prev {
         left: -27px;
+    }
+
+    .nav_logo {
+        width: 115px !important;
     }
 }
