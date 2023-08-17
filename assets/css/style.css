@@ -1,0 +1,577 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+    text-decoration: none !important;
+    overflow-x: hidden !important;
+}
+
+.OverflowX_hidden {
+    overflow-x: hidden !important;
+}
+
+/*--------------------------------- ROOT-DEFINE-VALUES --------------------------------- */
+:root {
+    --color-green: #0098a3;
+    --color-blue: #219afa;
+    --font-xs: 14px;
+    --font-sm: 16px;
+    --font-base: 18px;
+    --font-md: 20px;
+    --font-lg: 22px;
+    --font-xl: 28px;
+    --font-2xl: 50px;
+}
+
+/*--------------------- DEFINE-ALL = ROOT-VALUE ------------------------------ */
+.color_geen {
+    color: var(--color-green) !important;
+}
+
+.color_blue {
+    color: var(--color-blue) !important;
+}
+
+/*---------------------------- DEFINE-ALL = FONT-SIZES ---------------------------- */
+.font-xs {
+    font-size: var(--font-xs) !important;
+}
+
+.font-base {
+    font-size: var(--font-base) !important;
+}
+
+.font-sm {
+    font-size: var(--font-sm) !important;
+}
+
+.font-md {
+    font-size: var(--font-md) !important;
+}
+
+.font-lg {
+    font-size: var(--font-lg) !important;
+}
+
+.font-xl {
+    font-size: var(--font-xl) !important;
+}
+
+.font-2xl {
+    font-size: var(--font-2xl) !important;
+}
+
+/*---------------------------- DEFINE-ALL = FONT-WEIGHT ---------------------------- */
+.fw_semibold {
+    font-weight: 600 !important;
+}
+
+/*---------------------------- DEFINE-ALL = FONT-FAMILY---------------------------- */
+@font-face {
+    font-family: arial-bold;
+    src: url("/assets/fonts/ARIALBD.TTF");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: arial-semibold;
+    src: url("/assets/fonts/ArialMdm.ttf");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: arial-normal-italic;
+    src: url("/assets/fonts/ArialCEItalic.ttf");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: arial-normal;
+    src: url("/assets/fonts/ArialCE.ttf");
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ff_lora {
+    font-family: 'Lora', serif !important;
+}
+
+.ff_arial_bold {
+    font-family: arial-bold !important;
+}
+
+.ff_arial_semibold {
+    font-family: arial-semibold !important;
+}
+
+.ff_arial_normal {
+    font-family: arial-normal !important;
+}
+
+.ff_arial_normal_italic {
+    font-family: arial-normal-italic !important;
+}
+
+/*----------------- FONT SIZE-SET --------------------  */
+@media (max-width:1199.98px) {
+    :root {
+        --font-xs: 14px;
+        --font-2xl: 35px;
+        --font-md: 16px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    :root {
+
+        --font-2xl: 40px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    :root {
+        --font-xs: 14px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    :root {
+        --font-xs: 8px;
+        --font-2xl: 36px;
+        --font-md: 14px;
+        --font-sm: 14px;
+        --font-base: 10px;
+        --font-lg: 12px;
+    }
+}
+
+/* ------------------------------ COMMON CSS -------------------------- */
+.overflow_hidden {
+    overflow: hidden !important;
+}
+
+.opacity_07 {
+    opacity: 0.7 !important;
+}
+
+.opacity_08 {
+    opacity: 0.8 !important;
+}
+
+.transition {
+    transition: all 0.2s ease-in-out !important;
+}
+
+.hov_scale:hover {
+    transform: scale(1.04) !important;
+}
+
+.index_m_1 {
+    z-index: -1;
+}
+
+.index_1 {
+    z-index: 1;
+}
+
+.index_5 {
+    z-index: 5;
+}
+
+.my_m_1 {
+    margin-top: -1px;
+    margin-bottom: -1px;
+}
+
+.sub_heading {
+    font-size: var(--font-xl);
+}
+
+.contact_us_btn {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 13px;
+    border-radius: 100px;
+    background: var(--color-blue);
+    color: white;
+    display: inline-block;
+    border: transparent;
+    min-height: 62px;
+}
+
+.contact_us_btn:focus,
+.contact_us_btn:hover {
+    -webkit-animation: pulse 1s;
+    animation: pulse 1s;
+    box-shadow: 0 0 0 0.7em transparent;
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 #0098A3;
+    }
+}
+
+/*  ------------------ BACK-TO-TOP-CSS ------------------ */
+#scroll svg {
+    height: 25px;
+    width: 22px;
+}
+
+#scroll {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 50;
+    cursor: pointer;
+    font-size: var(--font_lg);
+    color: white;
+    padding: 10px 12px;
+    border-radius: 50% !important;
+    background: linear-gradient(90.81deg, #CC66FF 4.81%, #B266FF 31.89%, #8D66FF 69.47%, #7066FF 99.41%);
+    border: 1px solid var(--color-white);
+    animation: moves 3s infinite;
+    transition: all 0.3s ease-in-out !important;
+}
+
+@keyframes moves {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-5px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+#scroll:hover {
+    box-shadow: 0px 0px 4px 4px #ffffff;
+}
+
+/* NAVBAR CSS */
+.cross_btn {
+    top: 42px;
+    right: 15%;
+}
+
+nav {
+    background-color: var(--color-blue);
+}
+
+.lg_nav_link {
+    padding-left: 34px !important;
+}
+
+nav li a::after {
+    position: absolute;
+    content: "";
+    height: 2px;
+    border-radius: 1px;
+    width: 0;
+    background-color: #ffffff !important;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -2.5px;
+    transition: all 0.3s linear;
+}
+
+nav li a:hover::after {
+    width: 100%;
+}
+
+.line1,
+.line2,
+.line3 {
+    content: "";
+    height: 3px;
+    width: 30px;
+    background-color: #ffffff !important;
+}
+
+.nav_toggle_icon {
+    cursor: pointer;
+    width: 30px;
+    height: 20px;
+    right: -12px !important;
+    z-index: 1;
+}
+
+.nav_spacing {
+    padding: 22px 0;
+}
+
+.show_nav {
+    top: 0% !important;
+    left: 0% !important;
+    opacity: 1 !important;
+    z-index: 77 !important;
+}
+
+@media (max-width: 767.98px) {
+    .overlay {
+        position: absolute;
+        background-color: var(--color-blue);
+        width: 100%;
+        height: 100vh;
+        top: 0;
+        left: -100%;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-transition: 0.3s all linear !important;
+        -o-transition: 0.3s all linear !important;
+        transition: 0.3s all linear !important;
+        z-index: 9999;
+    }
+
+    nav li a::after {
+        background-image: linear-gradient(88.48deg, #CC66FF 14.1%, #B266FF 51.14%, #8D66FF 102.54%, #7066FF 143.5%);
+    }
+}
+
+@media (max-width: 575.98px) {
+
+    .cross_btn {
+        top: 51px;
+        right: 19px;
+    }
+
+    .connect_btn {
+        padding: 6px 14px !important;
+    }
+
+    .page_logo {
+        max-width: 40px;
+    }
+}
+
+/*------------------------- navbar input ------------------------- */
+#search_input input {
+    border: 1px solid #00000033;
+    padding: 0px 10px 0px 35px;
+    border-radius: 50px !important;
+    border: 1px solid #cccccc;
+    max-width: 340px;
+    min-height: 39px;
+}
+
+#search_input {
+    width: 340px;
+}
+
+#search_input::placeholder {
+    color: #c4c4c4 !important;
+}
+
+.nav_searc_icon {
+    top: 29px;
+    left: 60px;
+}
+
+.nav_width {
+    margin-left: auto;
+    max-width: 1312px;
+}
+
+.nav_logo {
+    /* box-shadow: 7px 6px 13px 0px #00000026; */
+    z-index: 1;
+}
+
+/* --------------------------- Hero-Css ----------------------- */
+.hero_para {
+    max-width: 590px;
+}
+
+.lh_67 {
+    line-height: 67px;
+}
+
+.talegram_icon {
+    width: 42px;
+}
+
+.hero_parent {
+    max-width: 702px
+}
+
+/* ---------------------------Buy Slider-Css ----------------------- */
+.buy_laptop_parent {
+    box-shadow: 0px 0px 44px 0px #00000038;
+    padding: 60px 29px 68px 29px;
+}
+
+.buy_btn:hover {
+    color: #0098A3 !important;
+    background-color: #ffffff !important;
+    border: 1px solid var(--color-blue);
+}
+
+.buy_btn {
+    background-color: var(--color-green);
+    border: 1px solid var(--color-green);
+    border-radius: 19px;
+    padding: 9px 27px;
+}
+
+.online_shoping_para {
+    max-width: 218px;
+    line-height: 124%
+}
+
+.max_w_574 {
+    max-width: 574px;
+}
+
+/* --------------------------- Slider-Css ----------------------- */
+.slick-next {
+    right: -6px;
+    z-index: 1;
+}
+
+.slick-prev {
+    left: -17px;
+    z-index: 1;
+}
+
+.slick-list {
+    padding: 8px 0 !important;
+}
+
+.slick-next:before {
+    content: url("../images/svg/slider-right-icon.svg") !important;
+    -webkit-transition: all 0.3s ease-in-out !important;
+    -o-transition: all 0.3s ease-in-out !important;
+    transition: all 0.3s ease-in-out !important;
+}
+
+.slick-prev:before {
+    content: url("../images/svg/slider-left-icon-blue.svg") !important;
+    -webkit-transition: all 0.3s ease-in-out !important;
+    -o-transition: all 0.3s ease-in-out !important;
+    transition: all 0.3s ease-in-out !important;
+}
+
+.slick-next:hover:before {
+    content: url("../images/svg/slider-right-icon.svg") !important;
+}
+
+.slick-prev:hover:before {
+    content: url("../images/svg/slider-left-icon.svg") !important;
+}
+
+/* ---------------------------------- Footer-Css ----------------------------- */
+/* ----------------------------- Media Query Only-----------------------------  */
+@media (min-width: 1200px) and (max-width: 1599.98px) {
+    .custom_container {
+        max-width: 1360px !important;
+        margin: auto;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .hero_para {
+        max-width: 524px;
+    }
+
+    .lh_67 {
+        line-height: 55px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .slick-dots li button:before {
+        margin-top: 20px;
+        color: #5A25C4 !important;
+        font-size: 20px !important;
+    }
+
+    .lg_nav_link {
+        padding-left: 24px !important;
+    }
+
+    .nav_spacing {
+        padding: 12px 0;
+    }
+
+    .lh_67 {
+        line-height: unset;
+    }
+
+    .buy_slider {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 576px) {
+    #scroll {
+        position: fixed;
+        bottom: 8px;
+        right: 18px;
+    }
+
+    .lh_67 {
+        line-height: 48px;
+    }
+
+    .contact_us_btn {
+        padding: 10px 13px;
+    }
+
+    .talegram_icon {
+        width: 34px;
+    }
+
+    .buy_btn {
+        font-size: 8px !important;
+        padding: 5px 16px !important;
+    }
+
+    .buy_slider {
+        margin-top: 60px;
+        margin-bottom: 50px;
+    }
+
+    .fs_mob_10 {
+        font-size: 10px !important;
+    }
+
+    .fs_mob_8 {
+        font-size: 8px !important;
+    }
+
+    .fs_mob_14 {
+        font-size: 9px !important;
+    }
+
+    .buy_laptop_parent {
+        padding: 30px 29px 30px 29px !important;
+    }
+
+    .headphone_icon {
+        width: 25px;
+        height: 24px;
+    }
+
+    .nav_logo {
+        /* height: 98px !important; */
+        width: 100px !important;
+    }
+
+    .nav_width {
+        height: 45px;
+    }
+}
