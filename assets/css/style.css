@@ -387,11 +387,6 @@ nav li a:hover::after {
     left: 60px;
 }
 
-.nav_width {
-    margin-left: auto;
-    max-width: 1312px;
-}
-
 .nav_logo {
     /* box-shadow: 7px 6px 13px 0px #00000026; */
     z-index: 1;
@@ -509,10 +504,24 @@ nav li a:hover::after {
 }
 
 /* ----------------------------- Media Query Only-----------------------------  */
-@media (min-width: 1200px) and (max-width: 1599.98px) {
+@media (min-width: 1200px) and (max-width: 1400px) {
     .custom_container {
         max-width: 1360px !important;
         margin: auto;
+    }
+}
+
+@media (min-width: 1500.98px) {
+    .nav_width {
+        margin-left: auto;
+        max-width: 1414px;
+    }
+}
+
+@media (max-width: 1450.98px) {
+    .nav_width {
+        margin-left: auto;
+        max-width: 1312px;
     }
 }
 
