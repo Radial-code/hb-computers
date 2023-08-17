@@ -1,26 +1,3 @@
-// DEFINE AOS LINK=========================================== */
-AOS.init({
-    duration: 1000,
-    once: true,
-});
-// ========== BACK TO TOP
-$(document).ready(function () {
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 100) {
-            $("#scroll").fadeIn();
-        } else {
-            $("#scroll").fadeOut();
-        }
-    });
-    $("#scroll").click(function () {
-        $("html, body").animate({
-                scrollTop: 0,
-            },
-            40
-        );
-        return false;
-    });
-});
 
 // <============== NAVBAR CSS ==================>
 const sidebar = document.querySelector(".overlay");
@@ -80,46 +57,3 @@ $('.slider_two').slick({
     },
   ],
 });
-//  $('.slider_one').slick({
-//       slidesToShow: 1,
-//       autoplay: true,
-//       dots: false,
-//       autoplaySpeed: 2000,
-//       arrows: true,
-//       nextArrow: ".left_arrow",
-//       prevArrow: ".right_arrow",
-//       responsive: [{
-//           breakpoint: 1200,
-//           settings: {
-//             arrows: false,
-//             slidesToShow: 1
-//           }
-//         },
-//         {
-//           breakpoint: 1024,
-//           settings: {
-//             arrows: false,
-//             slidesToShow: 1
-//           }
-//         },
-//         {
-//           breakpoint: 900,
-//           settings: {
-//             arrows: false,
-//             slidesToShow: 1
-//           }
-//         },
-//         {
-//           breakpoint: 768,
-//           settings: {
-//             slidesToShow: 1
-//           }
-//         },
-//         {
-//           breakpoint: 480,
-//           settings: {
-//             slidesToShow: 1
-//           }
-//         }
-//       ]
-//     });
