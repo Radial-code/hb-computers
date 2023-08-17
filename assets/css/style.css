@@ -127,7 +127,7 @@ body {
 @media (max-width:1199.98px) {
     :root {
         --font-xs: 14px;
-        --font-2xl: 35px;
+        --font-2xl: 32px;
         --font-md: 16px;
     }
 }
@@ -475,6 +475,16 @@ nav li a:hover::after {
     content: url("../images/svg/slider-left-icon.svg") !important;
 }
 
+.slick-next,
+.slick-prev {
+    width: 42px;
+}
+
+.slick-next:before,
+.slick-prev:before {
+    opacity: unset;
+}
+
 /* ---------------------------------- Our Services-Css ----------------------------- */
 .m_w_714 {
     max-width: 714px;
@@ -518,6 +528,13 @@ nav li a:hover::after {
     }
 }
 
+@media (min-width: 1600.98px) {
+    .nav_width {
+        margin-left: auto;
+        max-width: 1777px;
+    }
+}
+
 @media (max-width: 1450.98px) {
     .nav_width {
         margin-left: auto;
@@ -537,6 +554,10 @@ nav li a:hover::after {
     .m_w_714 {
         max-width: 512px;
     }
+
+    .max_w_574 {
+        max-width: 525px;
+    }
 }
 
 @media (max-width: 991.98px) {
@@ -544,6 +565,14 @@ nav li a:hover::after {
         margin-top: 20px;
         color: #5A25C4 !important;
         font-size: 20px !important;
+    }
+
+    .buy_laptop_parent {
+        padding: 30px 29px 30px 29px;
+    }
+
+    .max_w_574 {
+        max-width: 645px;
     }
 
     .lg_nav_link {
@@ -613,8 +642,8 @@ nav li a:hover::after {
         font-size: 14px !important;
     }
 
-    .buy_laptop_parent {
-        padding: 30px 29px 30px 29px !important;
+    .fs_mob_20 {
+        font-size: 20px !important;
     }
 
     .headphone_icon {
@@ -623,7 +652,6 @@ nav li a:hover::after {
     }
 
     .nav_logo {
-        /* height: 98px !important; */
         width: 100px !important;
     }
 
@@ -633,5 +661,13 @@ nav li a:hover::after {
 
     .m_w_714 {
         max-width: 365px;
+    }
+
+    .slick-next {
+        right: -24px;
+    }
+
+    .slick-prev {
+        left: -27px;
     }
 }
