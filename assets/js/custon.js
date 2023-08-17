@@ -42,8 +42,15 @@ const sidebar = document.querySelector(".overlay");
 $('.slider_one').slick({
   centerMode: true,
   centerPadding: '0px',
-  // autoplay: true,
+  autoplay: true,
   slidesToShow: 1,
+});
+   
+$('.slider_two').slick({
+  centerMode: true,
+  centerPadding: '60px',
+  // autoplay: true,
+  slidesToShow: 3.5,
   responsive: [
     {
       breakpoint: 1200,
@@ -53,7 +60,7 @@ $('.slider_one').slick({
     {
       breakpoint: 991,
       settings: {
-        slidesToShow: 1,
+        slidesToShow: 3,
          centerMode: true,
         slidesToScroll: 1,
       },
@@ -61,8 +68,9 @@ $('.slider_one').slick({
     {
       breakpoint: 576,
       settings: {
-        slidesToShow: 1,
+        slidesToShow: 2,
         slidesToScroll: 1,
+          centerPadding: '0px',
       },
     },
   ],

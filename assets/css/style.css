@@ -174,7 +174,7 @@ body {
 }
 
 .hov_scale:hover {
-    transform: scale(1.04) !important;
+    transform: scale(1.05) !important;
 }
 
 .index_m_1 {
@@ -414,6 +414,7 @@ nav li a:hover::after {
 .buy_laptop_parent {
     box-shadow: 0px 0px 44px 0px #00000038;
     padding: 50px 29px 49px 29px;
+    background-color: #ffffff !important;
 }
 
 .buy_btn:hover {
@@ -475,7 +476,34 @@ nav li a:hover::after {
     content: url("../images/svg/slider-left-icon.svg") !important;
 }
 
-/* ---------------------------------- Footer-Css ----------------------------- */
+/* ---------------------------------- Our Services-Css ----------------------------- */
+.m_w_714 {
+    max-width: 714px;
+}
+
+.service_card_img_w {
+    max-width: 134px;
+}
+
+.service_card_parent {
+    max-width: 149px;
+    padding: 7px 7px 13px 7px;
+    border-radius: 8px;
+    box-shadow: 0px 6px 13px 0px #00000017;
+    background-color: #ffffff !important;
+}
+
+/* ----------------------------- Shop Now Css-----------------------------  */
+.bg_green {
+    background-color: var(--color-green);
+}
+
+.shop_black_btn {
+    padding: 11px 23px;
+    border-radius: 78px;
+    background-color: #ffffff;
+}
+
 /* ----------------------------- Media Query Only-----------------------------  */
 @media (min-width: 1200px) and (max-width: 1599.98px) {
     .custom_container {
@@ -556,8 +584,12 @@ nav li a:hover::after {
         font-size: 8px !important;
     }
 
-    .fs_mob_14 {
+    .fs_mob_9 {
         font-size: 9px !important;
+    }
+
+    .fs_mob_14 {
+        font-size: 14px !important;
     }
 
     .buy_laptop_parent {
