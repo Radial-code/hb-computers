@@ -161,6 +161,10 @@ body {
     overflow: hidden !important;
 }
 
+.cursor_pointer {
+    cursor: pointer !important;
+}
+
 .opacity_07 {
     opacity: 0.7 !important;
 }
@@ -239,7 +243,7 @@ body {
     color: white;
     padding: 10px 12px;
     border-radius: 50% !important;
-    background: linear-gradient(90.81deg, #CC66FF 4.81%, #B266FF 31.89%, #8D66FF 69.47%, #7066FF 99.41%);
+    background-color: var(--color-blue);
     border: 1px solid var(--color-white);
     animation: moves 3s infinite;
     transition: all 0.3s ease-in-out !important;
@@ -520,6 +524,10 @@ nav li a:hover::after {
     .lh_67 {
         line-height: 55px;
     }
+
+    .m_w_714 {
+        max-width: 512px;
+    }
 }
 
 @media (max-width: 991.98px) {
@@ -531,6 +539,10 @@ nav li a:hover::after {
 
     .lg_nav_link {
         padding-left: 24px !important;
+    }
+
+    .m_w_714 {
+        max-width: 678px;
     }
 
     .nav_spacing {
@@ -608,5 +620,9 @@ nav li a:hover::after {
 
     .nav_width {
         height: 45px;
+    }
+
+    .m_w_714 {
+        max-width: 365px;
     }
 }

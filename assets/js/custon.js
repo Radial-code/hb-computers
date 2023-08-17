@@ -49,18 +49,23 @@ $('.slider_one').slick({
 $('.slider_two').slick({
   centerMode: true,
   centerPadding: '60px',
-  // autoplay: true,
-  slidesToShow: 3.5,
+  autoplay: true,
+  arrows: true,
+      nextArrow: ".left_arrow_two",
+      prevArrow: ".right_arrow_two",
+  slidesToShow: 4,
   responsive: [
     {
+    
       breakpoint: 1200,
       settings: {
+               slidesToShow: 3,
       },
     },
     {
       breakpoint: 991,
       settings: {
-        slidesToShow: 3,
+        slidesToShow: 4,
          centerMode: true,
         slidesToScroll: 1,
       },
