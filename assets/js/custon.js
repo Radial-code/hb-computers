@@ -26,12 +26,13 @@ $('.slider_one').slick({
 $('.slider_two').slick({
   centerMode: true,
   centerPadding: '60px',
-  autoplay: true,
+  // autoplay: true,
   arrows: true,
       nextArrow: ".left_arrow_two",
       prevArrow: ".right_arrow_two",
   slidesToShow: 4,
   responsive: [
+
     {
     
       breakpoint: 1200,
