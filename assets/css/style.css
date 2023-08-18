@@ -8,10 +8,22 @@
 html,
 body {
     text-decoration: none !important;
-    overflow-x: hidden !important;
     background-image: url("/assets/images/webp/body_background.webp");
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.overflow_hidden_x {
+    overflow-x: hidden !important;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #219afa;
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar {
+    width: 4px;
 }
 
 /*--------------------------------- ROOT-DEFINE-VALUES --------------------------------- */
@@ -350,7 +362,7 @@ nav li a:hover::after {
 }
 
 .nav_searc_icon {
-    top: 29px;
+    top: 12px;
     left: 60px;
 }
 
@@ -500,6 +512,13 @@ nav li a:hover::after {
     .custom_container {
         max-width: 1360px !important;
         margin: auto;
+    }
+}
+
+@media (min-width: 1200px) {
+    .nav_sticky {
+        position: sticky;
+        top: 0;
     }
 }
 
