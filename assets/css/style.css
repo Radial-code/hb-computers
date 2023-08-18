@@ -517,6 +517,17 @@ nav li a:hover::after {
         max-width: 1360px !important;
         margin: auto;
     }
+
+}
+
+@media (min-width: 1200px) {
+    .left_arrow_two {
+        width: 28px !important;
+    }
+
+    .right_arrow_two {
+        width: 28px !important;
+    }
 }
 
 @media (min-width: 1500.98px) {
