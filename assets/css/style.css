@@ -366,8 +366,9 @@ nav li a:hover::after {
     left: 60px;
 }
 
-.nav_logo {
-    z-index: 1;
+.nav_text_logo {
+    top: 52px;
+    left: 37px;
 }
 
 /* --------------------------- Hero-Css ----------------------- */
@@ -646,6 +647,12 @@ nav li a:hover::after {
 @media (max-width: 576px) {
     .lh_67 {
         line-height: 48px;
+    }
+
+    .nav_text_logo {
+        top: 37px;
+        left: 28px;
+        width: 62px;
     }
 
     .w_mob_28 {
