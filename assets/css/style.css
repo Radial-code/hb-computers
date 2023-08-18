@@ -520,6 +520,7 @@ nav li a:hover::after {
     .nav_sticky {
         position: sticky;
         top: 0;
+        background-color: #ffffff;
     }
 }
 
