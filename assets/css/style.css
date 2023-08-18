@@ -409,7 +409,7 @@ nav li a:hover::after {
 }
 
 .slick-next:before {
-    content: url("../images/svg/slider-right-icon.svg") !important;
+    content: url("../images/svg/slider_black_arrow.svg") !important;
     -webkit-transition: all 0.3s ease-in-out !important;
     -o-transition: all 0.3s ease-in-out !important;
     transition: all 0.3s ease-in-out !important;
@@ -427,7 +427,7 @@ nav li a:hover::after {
 }
 
 .slick-prev:hover:before {
-    content: url("../images/svg/slider-left-icon.svg") !important;
+    content: url("../images/svg/slider_hover_left_icon.svg") !important;
 }
 
 .slick-next,
@@ -442,6 +442,14 @@ nav li a:hover::after {
 
 .slick-list {
     padding: 13px 0 !important;
+}
+
+.slider_hov {
+    opacity: 0;
+}
+
+.slider_hov:hover {
+    opacity: 1;
 }
 
 /* ---------------------------------- Our Services-Css ----------------------------- */
