@@ -492,6 +492,10 @@ nav li a:hover::after {
         margin-left: auto;
         max-width: 1777px;
     }
+
+    .max_w_574 {
+        max-width: 1117px;
+    }
 }
 
 @media (max-width: 1450.98px) {
@@ -561,6 +565,11 @@ nav li a:hover::after {
 
     .service_card_parent {
         max-width: 157px;
+    }
+
+    .hero_parent {
+        max-width: 540px;
+        margin: auto;
     }
 }
 
