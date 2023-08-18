@@ -416,7 +416,7 @@ nav li a:hover::after {
 }
 
 .slick-prev:before {
-    content: url("../images/svg/slider-left-icon-blue.svg") !important;
+    content: url("../images/svg/slider-left-icon.svg") !important;
     -webkit-transition: all 0.3s ease-in-out !important;
     -o-transition: all 0.3s ease-in-out !important;
     transition: all 0.3s ease-in-out !important;
@@ -444,12 +444,16 @@ nav li a:hover::after {
     padding: 13px 0 !important;
 }
 
-.slider_hov {
+.slider_parent .slider_hov {
     opacity: 0;
 }
 
-.slider_hov:hover {
+.slider_parent:hover .slider_hov {
     opacity: 1;
+}
+
+.slider_parent:hover .slider_hover_opacity_0 {
+    opacity: 0;
 }
 
 /* ---------------------------------- Our Services-Css ----------------------------- */
@@ -584,6 +588,18 @@ nav li a:hover::after {
 @media (max-width: 576px) {
     .lh_67 {
         line-height: 48px;
+    }
+
+    .w_mob_28 {
+        width: 28px !important;
+    }
+
+    .right_arrow_two {
+        width: 28px !important;
+    }
+
+    .left_arrow_two {
+        width: 28px !important;
     }
 
     .contact_us_btn {
