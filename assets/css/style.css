@@ -139,6 +139,7 @@ body {
         --font-base: 20px;
         --font-lg: 28px;
         --font-xs: 19px;
+        --font-sm: 18px;
     }
 }
 
@@ -182,10 +183,6 @@ body {
 
 .cursor_pointer {
     cursor: pointer !important;
-}
-
-.fw_medium {
-    font-weight: 500 !important;
 }
 
 .opacity_07 {
@@ -232,13 +229,13 @@ body {
 .contact_us_btn {
     font-size: 16px;
     font-weight: 600;
-    padding: 13px;
+    padding: 10px 10px;
     border-radius: 100px;
     background: var(--color-blue);
     color: white;
     display: inline-block;
     border: transparent;
-    min-height: 62px;
+    /* min-height: 62px; */
 }
 
 .contact_us_btn:focus,
@@ -412,13 +409,14 @@ nav li a:hover::after {
 .buy_btn {
     background-color: var(--color-green);
     border: 1px solid var(--color-green);
-    border-radius: 19px;
-    padding: 9px 27px;
+    border-radius: 25px;
+    padding: 6px 26px;
 }
 
 .online_shoping_para {
     max-width: 218px;
-    line-height: 124%
+    line-height: 124%;
+    font-weight: 500 !important;
 }
 
 .max_w_574 {
@@ -521,7 +519,7 @@ nav li a:hover::after {
 }
 
 .shop_black_btn {
-    padding: 11px 23px;
+    padding: 9px 23px;
     border-radius: 78px;
     background-color: #ffffff;
 }
@@ -679,6 +677,10 @@ nav li a:hover::after {
         line-height: 48px;
     }
 
+    .buy_laptop_parent {
+        padding: 24px 29px 24px 29px;
+    }
+
     .right_arrow_slider_one,
     .left_arrow_slider_one {
         width: 18px !important;
@@ -687,10 +689,6 @@ nav li a:hover::after {
     #slider_one .slide_left {
         height: 18px !important;
     }
-
-    /* #slider_one .slider_parent {
-        height: 18px !important;
-    } */
 
     .nav_text_logo {
         top: 37px;
