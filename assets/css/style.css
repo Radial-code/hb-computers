@@ -204,6 +204,10 @@ body {
     transform: scale(1.05) !important;
 }
 
+.index_0 {
+    z-index: 0;
+}
+
 .index_m_1 {
     z-index: -1;
 }
