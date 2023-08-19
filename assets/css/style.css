@@ -524,6 +524,10 @@ nav li a:hover::after {
     background-color: #ffffff;
 }
 
+.max_w_60 {
+    max-width: 55px !important;
+}
+
 /* ----------------------------- Media Query Only-----------------------------  */
 @media (min-width: 1200px) and (max-width: 1400px) {
     .custom_container {
@@ -545,6 +549,10 @@ nav li a:hover::after {
     .nav_width {
         margin-left: auto;
         max-width: 1394px;
+    }
+
+    .max_w_60 {
+        max-width: 63px !important;
     }
 
     .max_w_574 {
