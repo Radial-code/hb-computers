@@ -410,7 +410,7 @@ nav li a:hover::after {
     background-color: var(--color-green);
     border: 1px solid var(--color-green);
     border-radius: 25px;
-    padding: 6px 26px;
+    padding: 8px 26px;
 }
 
 .online_shoping_para {
