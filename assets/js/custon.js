@@ -19,8 +19,10 @@ const sidebar = document.querySelector(".overlay");
 $('.slider_one').slick({
   centerMode: true,
   centerPadding: '0px',
-  autoplay: true,
+  // autoplay: true,
   slidesToShow: 1,
+    nextArrow: ".right_arrow_slider_one",
+      prevArrow: ".left_arrow_slider_one",
 });
    
 $('.slider_two').slick({

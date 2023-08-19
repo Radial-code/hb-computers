@@ -184,6 +184,10 @@ body {
     cursor: pointer !important;
 }
 
+.fw_medium {
+    font-weight: 500 !important;
+}
+
 .opacity_07 {
     opacity: 0.7 !important;
 }
@@ -454,12 +458,6 @@ nav li a:hover::after {
     content: url("../images/svg/slider_hover_left_icon.svg") !important;
 }
 
-/* 
-.slick-next,
-.slick-prev {
-    width: 42px;
-} */
-
 .slick-next:before,
 .slick-prev:before {
     opacity: unset;
@@ -480,6 +478,18 @@ nav li a:hover::after {
 .slider_parent:hover .slider_hover_opacity_0 {
     opacity: 0;
 }
+
+.slide_left {
+    left: 3%;
+    top: 46%;
+}
+
+.slide_right {
+    right: 3%;
+    top: 46%;
+}
+
+.right_arrow_slider_one {}
 
 /* ---------------------------------- Our Services-Css ----------------------------- */
 .m_w_714 {
@@ -544,12 +554,10 @@ nav li a:hover::after {
         width: 35px !important;
     }
 
-    /* 
-    .slider_one .slick-prev,
-    .slick-next {
-        font-size: 24px !important;
-        padding: 10px !important;
-    } */
+    .right_arrow_slider_one,
+    .left_arrow_slider_one {
+        width: 45px !important;
+    }
 }
 
 @media (min-width: 1600.98px) {
@@ -665,6 +673,11 @@ nav li a:hover::after {
 @media (max-width: 576px) {
     .lh_67 {
         line-height: 48px;
+    }
+
+    .right_arrow_slider_one,
+    .left_arrow_slider_one {
+        width: 18px !important;
     }
 
     .nav_text_logo {
