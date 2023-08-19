@@ -680,6 +680,14 @@ nav li a:hover::after {
         width: 18px !important;
     }
 
+    #slider_one .slide_left {
+        height: 18px !important;
+    }
+
+    /* #slider_one .slider_parent {
+        height: 18px !important;
+    } */
+
     .nav_text_logo {
         top: 37px;
         left: 28px;
