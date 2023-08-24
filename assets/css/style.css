@@ -111,13 +111,7 @@
 }
 
 /* Header */
-.logo_parent {
-  border-radius: 0px 0px 200px 200px;
-  background: #219afa;
-  box-shadow: 7px 6px 13px 0px rgba(0, 0, 0, 0.15),
-    -7px -6px 13px 0px rgba(0, 0, 0, 0.15);
-  padding: 55px 16.318px 55px 16px;
-}
+
 
 .cursor_pointer {
   cursor: pointer;
@@ -125,11 +119,10 @@
 
 .search_input_parent {
   padding: 9px 0 10px 12px;
-  width: 340px !important;
+  width: 50% !important;
   border-radius: 46px;
   border: 1px solid rgba(0, 0, 0, 0.2);
   background: #fff;
-  margin-left: 170px;
 }
 
 .opacity_07 {
@@ -341,10 +334,6 @@
   width: 647px;
 }
 
-.nav_bar {
-  width: 95% !important;
-}
-
 .slick-track {
   display: flex !important;
   align-items: center !important;
@@ -404,9 +393,7 @@
     --fs-3xl: 50px;
   }
 
-  .nav_bar {
-    width: 95% !important;
-  }
+
 }
 
 .dropdown_menu_fullscreen {
@@ -433,7 +420,6 @@
 @media (max-width: 1399.98px) {
   :root {
     --fs-xsm: 14px;
-    --fs-sm: 12px;
     --fs-md: 18px;
     --fs-lg: 20px;
     --fs-xl: 22px;
@@ -470,7 +456,6 @@
 @media (max-width: 991.98px) {
   :root {
     --fs-xsm: 14px;
-    --fs-sm: 12px;
     --fs-md: 18px;
     --fs-lg: 20px;
     --fs-xl: 22px;
@@ -478,8 +463,8 @@
     --fs-3xl: 45px;
   }
 
-  .logo_parent {
-    padding: 40px 16.318px 40px 16px;
+  .logo {
+    max-width: 100px;
   }
 }
 
@@ -487,7 +472,6 @@
 @media (max-width: 767.98px) {
   :root {
     --fs-xsm: 14px;
-    --fs-sm: 12px;
     --fs-md: 18px;
     --fs-lg: 20px;
     --fs-xl: 22px;
@@ -514,11 +498,8 @@
   }
 
   .search_input_parent {
-    width: 10px !important;
-    border: 1px solid transparent;
+    width: 90% !important;
     background: #fff;
-    padding: 0;
-    margin: 0 0 12px 0 !important;
   }
 
   .contect_info {
@@ -533,22 +514,6 @@
     top: 55%;
     transform: translateY(-50%);
     border-right: 1px solid #000000 !important;
-  }
-
-  .logo_parent {
-    border-radius: 0px 0px 100px 100px;
-    background: #219afa;
-    box-shadow: 7px 6px 13px 0px rgba(0, 0, 0, 0.15),
-      -7px -6px 13px 0px rgba(0, 0, 0, 0.15);
-    padding: 35px 8.318px 35px 8px;
-  }
-
-  .logo_parent img {
-    width: 59px;
-  }
-
-  .logo_parent {
-    padding: 40px 16.318px 35px 16px;
   }
 
   .start_0 {
@@ -568,9 +533,7 @@
     width: 100% !important;
   }
 
-  .nav_bar {
-    width: 100% !important;
-  }
+
 
   .fs_20 {
     font-size: 20px !important;
@@ -597,7 +560,9 @@
     font-size: 14px !important;
   }
 
-
+  .logo {
+    max-width: 80px;
+  }
 
   .w_sm_75 {
     width: 75% !important;
