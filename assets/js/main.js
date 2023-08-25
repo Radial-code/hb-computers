@@ -9,7 +9,8 @@ $(".Slider").slick({
   autoplaySpeed: 2000,
   prevArrow: $(".prev_arrow"),
   nextArrow: $(".next_arrow"),
-  responsive: [{
+  responsive: [
+    {
       breakpoint: 1200,
       settings: {
         slidesToShow: 3,
@@ -24,7 +25,7 @@ $(".Slider").slick({
       },
     },
     {
-      breakpoint: 700,
+      breakpoint: 768,
       settings: {
         slidesToShow: 2,
         slidesToScroll: 1,
@@ -43,7 +44,8 @@ $(".responsive").slick({
   autoplaySpeed: 2000,
   prevArrow: $(".prev_btn"),
   nextArrow: $(".next_btn"),
-  responsive: [{
+  responsive: [
+    {
       breakpoint: 992,
       settings: {
         slidesToShow: 2,
@@ -65,8 +67,6 @@ function shownav() {
   document.getElementById("showul").classList.toggle("start_0");
   document.body.classList.toggle("overflow-hidden");
 }
-
-
 
 // service dropdown
 const dropdownToggle = document.querySelector(".dropdown-toggle");
