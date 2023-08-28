@@ -583,7 +583,7 @@
 }
 @media (min-width: 1921px) {
   :root {
-    --fs-xsm: 1vh !important;
+    --fs-xsm: 1.5vh !important;
     --fs-sm: 2vh;
     --fs-md: 3vh;
     --fs-lg: 3vh;
