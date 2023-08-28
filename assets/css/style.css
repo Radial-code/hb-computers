@@ -585,11 +585,11 @@
   :root {
     --fs-xsm: 1.5vh !important;
     --fs-sm: 2vh;
-    --fs-md: 3vh;
-    --fs-lg: 3vh;
-    --fs-xl: 4vh;
-    --fs-2xl: 4vh;
-    --fs-3xl: 6vh !important;
+    --fs-md: 2vh;
+    --fs-lg: 2.5vh;
+    --fs-xl: 3vh;
+    --fs-2xl: 3vh;
+    --fs-3xl: 4vh !important;
   }
   .slider_img_size {
     height: 80% !important;
@@ -686,8 +686,13 @@
     gap: 20px !important;
   }
 }
-@media (min-width: 4000px) {
+@media (min-width: 3000px) {
   :root {
     --fs-xsm: 2vh !important;
+    --fs-lg: 3vh;
+    --fs-xl: 3vh !important;
+    --fs-2xl: 4vh;
+    --fs-3xl: 6vh !important;
+    --fs-md: 3vh;
   }
 }
