@@ -581,3 +581,97 @@
     height: 137px !important;
   }
 }
+@media (min-width: 1921px) {
+  :root {
+    --fs-xsm: 2vh;
+    --fs-sm: 2vh;
+    --fs-md: 3vh;
+    --fs-lg: 3vh;
+    --fs-xl: 4vh;
+    --fs-2xl: 4vh;
+    --fs-3xl: 6vh !important;
+  }
+  .slider_img_size {
+    height: 80% !important;
+  }
+  #header input,
+  ::placeholder {
+    font-size: 3vh;
+  }
+  .nav_content {
+    width: 100% !important;
+    gap: 110px !important;
+  }
+  .icons_width {
+    width: 70px !important;
+    height: 70px !important;
+  }
+  .headphone_icon_width {
+    width: 140px !important;
+    height: 140px !important;
+  }
+  .search_input_parent {
+    padding: 30px 20px !important;
+    border: 5px solid rgba(0, 0, 0, 0.2) !important;
+  }
+  .svg_img_dropdown {
+    width: 150px !important;
+    height: 150px !important;
+  }
+  .ps_custom_1920 {
+    padding-left: 70px !important;
+  }
+  .svg_DropDwon_arrow_size {
+    width: 30px !important;
+    height: 30px !important;
+  }
+  .mb_custome_1920 {
+    margin-bottom: 14px !important;
+  }
+  .logo {
+    width: 15vh !important;
+  }
+  .py_custome_1920 {
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
+  }
+  .mt_custome_1920 {
+    margin-top: 130px !important;
+  }
+  .dropdown_menu_fullscreen {
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+  }
+  .hero_btn_svg {
+    width: 100px !important;
+    height: 100px !important;
+  }
+  .hero_btn {
+    border-radius: 158px;
+    padding: 30px 51px 30px 50px;
+    gap: 20px !important;
+  }
+  .svg_arrow {
+    width: 100px !important;
+    height: 100px !important;
+  }
+  .buy_btn {
+    border-radius: 150.156px;
+    padding: 15px 57px;
+  }
+  .shop_btn {
+    padding: 15px 53px;
+    border-radius: 150px;
+  }
+  .footer_icons_size {
+    width: 150px !important;
+    height: 150px !important;
+  }
+  .footer_contact_logo {
+    width: 35%;
+  }
+  .social_icons_size {
+    width: 100px !important;
+    height: 100px !important;
+  }
+}
