@@ -545,11 +545,6 @@
 .hero_btn {
   padding: 8px 18px 8px 10px;
 }
-@media (min-width: 1600px) {
-  .slider_img_size {
-    height: 137.21px !important;
-  }
-}
 
 @media (max-width: 575.98px) {
   :root {
@@ -581,6 +576,16 @@
     height: 137px !important;
   }
 }
+@media (min-width: 1530px) {
+  .ps_custom_1920 {
+    padding-left: 2.5vh !important;
+  }
+}
+@media (min-width: 1600px) {
+  .slider_img_size {
+    height: 137.21px !important;
+  }
+}
 @media (min-width: 1921px) {
   :root {
     --fs-xsm: 1.5vh !important;
@@ -599,48 +604,48 @@
     font-size: 3vh;
   }
   .nav_content {
-    width: 100% !important;
-    gap: 110px !important;
+    width: 50vw !important;
+    gap: 1vw !important;
   }
   .icons_width {
-    width: 70px !important;
-    height: 70px !important;
+    width: 1vw !important;
+    min-height: 1vh !important;
   }
   .headphone_icon_width {
-    width: 140px !important;
-    height: 140px !important;
+    width: 2vw !important;
+    min-height: 2vh !important;
   }
   .search_input_parent {
-    padding: 30px 20px !important;
-    border: 5px solid rgba(0, 0, 0, 0.2) !important;
+    padding: 1.5vh 1vw !important;
+    border: 2px solid rgba(0, 0, 0, 0.2) !important;
+    border-radius: 156px;
   }
   .svg_img_dropdown {
-    width: 150px !important;
-    height: 150px !important;
+    width: 3vw !important;
+    min-height: 4vh !important;
   }
   .ps_custom_1920 {
-    padding-left: 70px !important;
+    padding-left: 2.5vh !important;
   }
   .svg_DropDwon_arrow_size {
-    width: 30px !important;
-    height: 30px !important;
+    width: 1vw !important;
+    min-height: 1vh !important;
   }
   .mb_custome_1920 {
-    margin-bottom: 14px !important;
+    margin-bottom: 0.8vh !important;
   }
   .logo {
     width: 15vh !important;
   }
+
   .py_custome_1920 {
-    padding-top: 40px !important;
-    padding-bottom: 40px !important;
+    padding: 1vh 0vw !important;
   }
   .mt_custome_1920 {
-    margin-top: 130px !important;
+    margin-top: 4vh !important;
   }
   .dropdown_menu_fullscreen {
-    padding-top: 100px !important;
-    padding-bottom: 100px !important;
+    padding: 5vh 0vw !important;
   }
   .hero_btn_svg {
     width: 3vw !important;
@@ -648,8 +653,8 @@
   }
   .hero_btn {
     border-radius: 158px;
-    padding: 10px 20px 10px 10px;
-    gap: 20px !important;
+    padding: 1vh 0.8vw 1vh 0.4vw !important;
+    gap: 0.5vw !important;
   }
   .svg_arrow {
     width: 3vw !important;
@@ -657,10 +662,10 @@
   }
   .buy_btn {
     border-radius: 150.156px;
-    padding: 15px 57px;
+    padding: 1vh 1.5vw !important;
   }
   .shop_btn {
-    padding: 15px 53px;
+    padding: 1vh 1vw;
     border-radius: 150px;
   }
   .footer_icons_size {
@@ -668,11 +673,17 @@
     min-height: 6vh !important;
   }
   .footer_contact_logo {
-    width: 50%;
+    width: 48vw;
   }
   .social_icons_size {
     width: 2vw !important;
     min-height: 5vh !important;
+  }
+  .footer_mt_custom {
+    margin-top: 1vh !important;
+  }
+  .footer_pb_custom {
+    padding-bottom: 1vh !important;
   }
 }
 @media (min-width: 2500px) {
@@ -682,13 +693,26 @@
   }
   .hero_btn {
     border-radius: 158px;
-    padding: 30px 51px 30px 20px;
-    gap: 20px !important;
+    padding: 1vh 1vw 1vh 0.2vw !important;
+    gap: 0.2vw !important;
+  }
+  .px_custom_2500 {
+    padding: 0vh 2vw !important;
+  }
+  .ps_custom_2500 {
+    padding: 0vh 0vw 0vh 2vw !important;
+  }
+  .pe_custom_2500 {
+    padding: 0vh 2vw 0vh 0vw !important;
+  }
+  .nav_px_custom_2500 {
+    padding: 0vh 3vw !important;
   }
 }
 @media (min-width: 3000px) {
   :root {
     --fs-xsm: 2vh !important;
+    --fs-sm: 2vh !important;
     --fs-lg: 3vh;
     --fs-xl: 3vh !important;
     --fs-2xl: 4vh;
