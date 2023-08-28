@@ -643,8 +643,8 @@
     padding-bottom: 100px !important;
   }
   .hero_btn_svg {
-    width: 100px !important;
-    height: 100px !important;
+    width: 80px !important;
+    height: 80px !important;
   }
   .hero_btn {
     border-radius: 158px;
@@ -664,11 +664,11 @@
     border-radius: 150px;
   }
   .footer_icons_size {
-    width: 150px !important;
-    height: 150px !important;
+    width: 4vw !important;
+    min-height: 6vh !important;
   }
   .footer_contact_logo {
-    width: 35%;
+    width: 50%;
   }
   .social_icons_size {
     width: 100px !important;
